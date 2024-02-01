@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.5s;
+}
+body{
+    width: 100%;			
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: bisque; */
+}
+#error{
+	position: fixed;
+	font-size: 1.7vw;
+	left: 15vw;
+	bottom: 4vw;
+	color: red;
+}
+#errorStudent{
+	font-size: 1.7vw;
+	position: fixed; 
+	right: 15vw; 
+	bottom: 4vw;
+	color: red;
+}
+
+#TeachersContainer,#studentContainer,#buttonContainer,form{
+    width: 30%;
+    height: 55%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#form1,#form2{
+    display: none;
+}
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.buttonInput{
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+
+
+input{
+    width: 18vw;
+    height: 2.5vw;
+    padding-left: 1vw;
+    border-radius: 5px;
+    border-right: none;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+}
+#buttonContainer{
+    display: flex;
+    width: 15%;
+}
+
+#button{
+    width: 15vw;
+    height: 5vw;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1.5vw;
+}
+#button:hover{
+    background-color: rgba(16, 226, 241, 1);
+}
+.submit{
+    width: 8vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    color: black;
+    border-radius: 10px;
+    border-left: 2vw;
+    background-color: rgba(12, 209, 216, 0.747);
+    border:none;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.submit:hover{
+    transform: scale(1.2);
+}
+label{
+    color: white;
+    font-size: 2.5vw;
+}

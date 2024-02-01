@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Information</title>
+    <link rel="stylesheet" href="./StudentPasswordUpdate.css">
+   <script src="./StudentInfo.js" defer></script>
+   <style>
+    body{
+        height: 140vh;
+        overflow: scroll;
+        margin-top: 3vw;
+        background-color: rgba(0, 0, 0, 0.17);
+        align-items: start;
+    }
+        form{
+            width: 35%;
+            height: 60vw;
+            background-color: white;
+            justify-content: space-evenly;
+            margin-top: 5vw;
+            padding-top: 3vw;
+            padding-bottom: 3vw;
+        }
+       .divInput{
+        padding-left: 10vw;
+       }
+       .buttonInput{
+        margin-top: 2vw;
+       }		.input{
+        	padding-left: 1vw;
+        }
+       
+   </style>
+</head>
+<body>
+	<!--StudentRegistration java file connection -->
+    <form action="Student">
+        <label id="label">Student Registration</label>
+     
+        <div class="divInput">
+            <label for="name">Student Name</label>
+            <input class="input" id="name" required type="text"  placeholder="Enter Student Name" name="name">
+           
+        </div>
+        <div class="divInput">
+            <label for="number">Student mobile Number</label>
+            <input class="input" id="number" required type="text"  placeholder="Enter Student Mobile Number" name="mobile">
+           
+        </div>
+        <div class="divInput">
+            <label for="Email">Student Email Id</label>
+            <input  id="Email" required type="text"  placeholder="Enter Student Email Id" name="emailId">
+          
+        </div>
+        <div class="divInput">
+            <label for="password">Student Password</label>
+            <input  class="input" id="password" required type="password"  placeholder="Enter Student Password" name="password">
+          
+        </div>
+        <div class="divInput">
+            <label for="Cource">Student Cource</label>
+            <input class="input" list="cource" required id="Cource" type="text"  placeholder="Enter Student Course" name="cource">
+        
+        </div>
+        <div class="divInput">
+            <label for="Gender">Student Gender</label>
+            <input class="input"  id="Gender" required type="text"  placeholder="Enter Student Gender" name="gender">
+          
+        </div>
+        <div class="divInput">
+            <label for="Birth">Student Date Of Birth</label>
+            <input class="input"  id="Birth" required type="date"  placeholder="Enter Student DOB" name="dob">
+        </div>
+        <div class="divInput">
+            <label for="Date">Student Joining Date</label>
+            <input class="input"  id="Date" required type="date"  placeholder="Enter Student Join Date" name="joinDate">
+        </div>
+
+        <div class="buttonInput">
+            <input class="submit" type="submit" value="Login">
+            <div class="submit" onclick="clear()" >Cancle</div>
+        </div>
+    </form>
+</body>
+</html>
