@@ -13,7 +13,7 @@ Admin Dashboard Features:
 ->Update student marks effortlessly through this feature.
 
 3) Delete Student:
-4) ->Easily delete a student's details with this functionality.
+->Easily delete a student's details with this functionality.
 
 **Student Login:**
 Access the Student Login with the provided student ID and password. Once logged in, students can utilize two main functionalities.
