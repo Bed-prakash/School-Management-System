@@ -1,8 +1,8 @@
 **School Management System**
 
-This GitHub project aims to create a comprehensive School Management System with two main functionalities: Student Login and Admin Login.
+This GitHub project aims to create a comprehensive School Management System with two main functionalities: **Student Login and Admin Login.**
 
-Admin Login:
+**Admin Login:**
 To access the Admin Login, use the provided admin ID and password. Upon successful login, you will be directed to the Admin Dashboard, showcasing all student details. The system allows for specific student searches using their mobile number.
 
 Admin Dashboard Features:
@@ -15,7 +15,7 @@ Admin Dashboard Features:
 3) Delete Student:
 4) ->Easily delete a student's details with this functionality.
 
-Student Login:
+**Student Login:**
 Access the Student Login with the provided student ID and password. Once logged in, students can utilize two main functionalities.
 
 Student Dashboard Features:
