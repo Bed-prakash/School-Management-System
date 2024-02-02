@@ -1,4 +1,5 @@
 School Management System
+
 This GitHub project aims to create a comprehensive School Management System with two main functionalities: Student Login and Admin Login.
 
 Admin Login:
